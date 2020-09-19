@@ -4,7 +4,7 @@ Created on Wed Sep 16 09:52:58 2020
 
 @author: Deep Chokshi
 """
-
+"""""
 #Assignment @uestion 1 
 def all_combination(list1, count, length): 
     if count==length: 
@@ -19,8 +19,8 @@ if __name__ == "__main__":
     length = 4 
     list1 = list(string) 
     all_combination(list1, 0, length-1) 
-
-"""
+"""""
+"""""
 #Assignment 1 Question 2
 def sort(list1):
     for i in range (len(list1)):
@@ -40,9 +40,9 @@ if __name__ == "__main__":
         result = result + i
 
 print (" ".join(result))
-
 """
-""""
+
+
 #Assignment 1 Question 3
 menu = {1:("soup",200),2:("Sabji",370),3:("Bread",30),4:("Rice",200),5:("Dal",175)}
 for i in menu:
@@ -63,4 +63,3 @@ while True:
         Final_amount += quantity * menu[choice][1]
 
 print ("Your Total bill is:"+str(Final_amount))
-"""""
